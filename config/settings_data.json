@@ -1,9 +1,9 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logosketchup_copy.png",
-    "logo_width": 110,
+    "logo": "shopify:\/\/shop_images\/Logo-NoBG_1-x2.png",
+    "logo_width": 120,
     "favicon": "shopify:\/\/shop_images\/Symbol-Sparkle-Line-Small.png",
-    "type_header_font": "assistant_n7",
+    "type_header_font": "karla_n7",
     "heading_scale": 100,
     "type_body_font": "karla_n4",
     "body_scale": 100,
@@ -11,6 +11,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": true,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -72,7 +73,7 @@
     "text_boxes_shadow_horizontal_offset": 0,
     "text_boxes_shadow_vertical_offset": 4,
     "text_boxes_shadow_blur": 5,
-    "media_border_thickness": 1,
+    "media_border_thickness": 0,
     "media_border_opacity": 5,
     "media_radius": 0,
     "media_shadow_opacity": 0,
@@ -144,18 +145,18 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#fefdf8",
+          "background": "#09a3de",
           "background_gradient": "",
-          "text": "#09a6e3",
-          "button": "#09a6e3",
-          "button_label": "#fefdf8",
-          "secondary_button_label": "#09a6e3",
-          "shadow": "#09a6e3"
+          "text": "#f4d11a",
+          "button": "#fff",
+          "button_label": "#fff",
+          "secondary_button_label": "#fff",
+          "shadow": "#fff"
         }
       },
       "background-2": {
         "settings": {
-          "background": "#fefdf8",
+          "background": "#f4d11a",
           "background_gradient": "",
           "text": "#09a6e3",
           "button": "#09a6e3",
@@ -177,9 +178,9 @@
       },
       "accent-1": {
         "settings": {
-          "background": "#09a6e3",
-          "background_gradient": "radial-gradient(rgba(137, 143, 239, 1), rgba(120, 196, 245, 1) 100%)",
-          "text": "#fefdf8",
+          "background": "#f4d11a",
+          "background_gradient": "radial-gradient(rgba(244, 209, 26, 1), rgba(120, 196, 245, 1) 100%)",
+          "text": "#09a3de",
           "button": "#fefdf8",
           "button_label": "#09a6e3",
           "secondary_button_label": "#fefdf8",
@@ -188,13 +189,13 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#ddecf2",
           "background_gradient": "",
-          "text": "#fefdf8",
+          "text": "#09a3de",
           "button": "#fefdf8",
           "button_label": "#334fb4",
           "secondary_button_label": "#fefdf8",
-          "shadow": "#09a6e3"
+          "shadow": "#ddecf2"
         }
       }
     }
