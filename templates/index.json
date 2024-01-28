@@ -105,20 +105,11 @@
             "text": "<p>Discover well-made, fun, and unique products for you and your pets!<\/p>",
             "text_style": "body"
           }
-        },
-        "button_6MxRtM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_FTbmVz",
-        "text_Efiwnf",
-        "button_6MxRtM"
+        "text_Efiwnf"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/snoop.jpg",
@@ -135,12 +126,142 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_H3FqVk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U7m8gi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Collections",
+            "heading_size": "h2"
+          }
+        },
+        "heading_QpcfFF": {
+          "type": "heading",
+          "settings": {
+            "heading": "View All",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U7m8gi",
+        "heading_QpcfFF"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "div {display: flex; background-color: green;}",
+        ".rich-text__blocks {background-color: pink; justify-content: space-between; width: 100vw; margin-right: 0px;}",
+        ".rich-text__blocks * {}",
+        ".rich-text__blocks > * + * {margin-top: 0; margin-bottom: 0; text-align: end;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_ebcfWh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6WLVD7": {
+          "type": "column",
+          "settings": {
+            "title": "Collections",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ptEwtE": {
+          "type": "column",
+          "settings": {
+            "title": "View All",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6WLVD7",
+        "column_ptEwtE"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 8
+      }
+    },
+    "collection_list_pFH9R8": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_URHtfa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "holidays"
+          }
+        },
+        "featured_collection_y7AHgP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "walking"
+          }
+        },
+        "featured_collection_nteqgD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "do-good-while"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_URHtfa",
+        "featured_collection_y7AHgP",
+        "featured_collection_nteqgD"
+      ],
+      "custom_css": [
+        "slider-component {padding-top: 0px !important; margin-top: 0px !important;}",
+        ".card--card.card--media > .card__content {background-color: white; text-align: center;}",
+        ".card__heading:last-child {margin-bottom: 0; font-size: 24px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "image_banner_nAe4TU",
     "0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01",
     "featured_collection",
-    "image_with_text_XBy38B"
+    "image_with_text_XBy38B",
+    "rich_text_H3FqVk",
+    "multicolumn_ebcfWh",
+    "collection_list_pFH9R8"
   ]
 }

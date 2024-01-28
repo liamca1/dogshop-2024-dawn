@@ -30,6 +30,7 @@
     "header": {
       "type": "header",
       "custom_css": [
+        "header {display: flex; justify-content: center;}",
         ".list-menu__item {font-family: Karla; font-size: 18px; font-style: normal; font-weight: 700; line-height: 110%; color: var(--Yellow, #f4d11a);}"
       ],
       "settings": {
