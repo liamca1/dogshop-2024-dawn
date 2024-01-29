@@ -10,7 +10,7 @@
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_vertical": 4,
     "animations_reveal_on_scroll": false,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -402,5 +402,14 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ":root {--grid-desktop-horizontal-spacing: 0px; --grid-desktop-vertical-spacing: 0px;}",
+      ".collection--full-width slider-component:not(.slider-component-desktop) {padding: 0px;}",
+      ".collection-list-wrapper {padding: 0px !important; margin: 0px; width: 100vw;}",
+      ".collection-list {width: 100vw;}",
+      "collection-list__item {border: 0px;}"
+    ]
   }
 }
