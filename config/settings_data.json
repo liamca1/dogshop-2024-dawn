@@ -167,13 +167,13 @@
       },
       "inverse": {
         "settings": {
-          "background": "#09a6e3",
+          "background": "#09a3de",
           "background_gradient": "",
           "text": "#fefdf8",
           "button": "#fefdf8",
-          "button_label": "#09a6e3",
+          "button_label": "#09a3de",
           "secondary_button_label": "#fefdf8",
-          "shadow": "#09a6e3"
+          "shadow": "#09a3de"
         }
       },
       "accent-1": {
@@ -202,10 +202,10 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#09a6e3",
+          "text": "#fff",
           "button": "#ffffff",
           "button_label": "#09a3de",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#09a3de",
           "shadow": "#ffffff"
         }
       },
@@ -216,6 +216,17 @@
           "text": "#f4d11a",
           "button": "#ddecf2",
           "button_label": "#09a3de",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#ffffff"
+        }
+      },
+      "scheme-dde43652-3374-440c-8427-c7c8ef5c9712": {
+        "settings": {
+          "background": "#fff",
+          "background_gradient": "",
+          "text": "#09a3de",
+          "button": "#09a3de",
+          "button_label": "#f4d11a",
           "secondary_button_label": "#ffffff",
           "shadow": "#ffffff"
         }
@@ -421,7 +432,7 @@
       ".collection-list-wrapper {padding: 0px !important; margin: 0px; width: 100vw;}",
       ".collection-list {width: 100vw;}",
       "collection-list__item {border: 0px;}",
-      ".section-template--18981501993228__image_with_text_gghzWG-padding {padding-bottom: 0px; padding-left: 0px;}"
+      ".section-template--18981501993228__image_with_text_gghzWG-padding {padding: 0rem;}"
     ]
   }
 }

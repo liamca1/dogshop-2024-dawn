@@ -82,6 +82,7 @@
         "heading_U7m8gi",
         "heading_QpcfFF"
       ],
+      "disabled": true,
       "custom_css": [
         "div {display: flex; background-color: green;}",
         ".rich-text__blocks {background-color: pink; justify-content: space-between; width: 100vw; margin-right: 0px;}",
@@ -153,15 +154,15 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "toys-1",
+        "collection": "home-page-featured-products",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-dde43652-3374-440c-8427-c7c8ef5c9712",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -173,54 +174,89 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_gghzWG": {
-      "type": "image-with-text",
+    "featured_collection_fgxmr7": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".card__information {padding-left: 15px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "human-goods",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_GjNejr": {
+      "type": "image-banner",
       "blocks": {
-        "heading_pxAawn": {
+        "heading_JKtcYa": {
           "type": "heading",
           "settings": {
             "heading": "Visit Dog Wash A-Go-Go",
             "heading_size": "h1"
           }
         },
-        "text_q4DYFL": {
+        "text_tfbe8q": {
           "type": "text",
           "settings": {
-            "text": "<p>The dog wash & store on Hermannstrasse 30, 12049 Berlin<\/p>",
+            "text": "The dog wash on hermannstrasse djkdndjlcadjc",
             "text_style": "body"
           }
         },
-        "button_PTtGFd": {
-          "type": "button",
+        "buttons_DijqBx": {
+          "type": "buttons",
           "settings": {
-            "button_label": "Find Out More",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label_1": "Find Out More",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_pxAawn",
-        "text_q4DYFL",
-        "button_PTtGFd"
+        "heading_JKtcYa",
+        "text_tfbe8q",
+        "buttons_DijqBx"
       ],
       "custom_css": [
-        ".image-with-text__grid {position: block; justify-items: space-between;}"
+        ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
+        ".banner__content {justify-content: right;}",
+        ".banner__media {background-color: #09A3DE;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Visit_Us_Image.png",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-73da3290-91de-4367-8c5c-148386089208",
+        "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -230,6 +266,7 @@
     "rich_text_H3FqVk",
     "collection_list_pFH9R8",
     "featured_collection_U4kAGX",
-    "image_with_text_gghzWG"
+    "featured_collection_fgxmr7",
+    "image_banner_GjNejr"
   ]
 }
