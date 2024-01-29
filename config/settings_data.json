@@ -208,6 +208,17 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#ffffff"
         }
+      },
+      "scheme-73da3290-91de-4367-8c5c-148386089208": {
+        "settings": {
+          "background": "#09a3de",
+          "background_gradient": "",
+          "text": "#f4d11a",
+          "button": "#ddecf2",
+          "button_label": "#09a3de",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#ffffff"
+        }
       }
     }
   },
@@ -406,10 +417,11 @@
   "platform_customizations": {
     "custom_css": [
       ":root {--grid-desktop-horizontal-spacing: 0px; --grid-desktop-vertical-spacing: 0px;}",
-      ".collection--full-width slider-component:not(.slider-component-desktop) {padding: 0px;}",
+      ".collection--full-width slider-component:not(.slider-component-desktop) {padding: 0px; padding-top: 20px;}",
       ".collection-list-wrapper {padding: 0px !important; margin: 0px; width: 100vw;}",
       ".collection-list {width: 100vw;}",
-      "collection-list__item {border: 0px;}"
+      "collection-list__item {border: 0px;}",
+      ".section-template--18981501993228__image_with_text_gghzWG-padding {padding-bottom: 0px; padding-left: 0px;}"
     ]
   }
 }

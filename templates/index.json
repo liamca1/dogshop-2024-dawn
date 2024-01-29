@@ -19,76 +19,6 @@
         "show_text_below": true
       }
     },
-    "0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17639667663116__0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "holidays"
-          }
-        },
-        "template--17639667663116__0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "walking"
-          }
-        },
-        "template--17639667663116__0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "do-good-while"
-          }
-        }
-      },
-      "block_order": [
-        "template--17639667663116__0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01-featured_collection-1",
-        "template--17639667663116__0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01-featured_collection-2",
-        "template--17639667663116__0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01-featured_collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_XBy38B": {
       "type": "image-with-text",
       "blocks": {
@@ -111,8 +41,11 @@
         "heading_FTbmVz",
         "text_Efiwnf"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/snoop.jpg",
+        "image": "shopify:\/\/shop_images\/beede0bc062558a8c87e5130e1660942f861a79b9c2eb5fdfeff882d3415a9be.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -123,8 +56,8 @@
         "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 24
       }
     },
     "rich_text_H3FqVk": {
@@ -149,7 +82,6 @@
         "heading_U7m8gi",
         "heading_QpcfFF"
       ],
-      "disabled": true,
       "custom_css": [
         "div {display: flex; background-color: green;}",
         ".rich-text__blocks {background-color: pink; justify-content: space-between; width: 100vw; margin-right: 0px;}",
@@ -163,50 +95,6 @@
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "multicolumn_ebcfWh": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_6WLVD7": {
-          "type": "column",
-          "settings": {
-            "title": "Collections",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ptEwtE": {
-          "type": "column",
-          "settings": {
-            "title": "View All",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_6WLVD7",
-        "column_ptEwtE"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 8
       }
     },
     "collection_list_pFH9R8": {
@@ -246,7 +134,7 @@
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "",
+        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -256,6 +144,9 @@
     },
     "featured_collection_U4kAGX": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card__information {padding-left: 15px;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -269,7 +160,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -278,6 +169,56 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_gghzWG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pxAawn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit Dog Wash A-Go-Go",
+            "heading_size": "h1"
+          }
+        },
+        "text_q4DYFL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The dog wash & store on Hermannstrasse 30, 12049 Berlin<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_PTtGFd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pxAawn",
+        "text_q4DYFL",
+        "button_PTtGFd"
+      ],
+      "custom_css": [
+        ".image-with-text__grid {position: block; justify-items: space-between;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Visit_Us_Image.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-73da3290-91de-4367-8c5c-148386089208",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -285,12 +226,10 @@
   },
   "order": [
     "image_banner_nAe4TU",
-    "0ba66d05-9a2f-49a3-ab8a-b29bf5ad1e01",
-    "featured_collection",
     "image_with_text_XBy38B",
     "rich_text_H3FqVk",
-    "multicolumn_ebcfWh",
     "collection_list_pFH9R8",
-    "featured_collection_U4kAGX"
+    "featured_collection_U4kAGX",
+    "image_with_text_gghzWG"
   ]
 }
