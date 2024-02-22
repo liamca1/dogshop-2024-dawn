@@ -60,44 +60,6 @@
         "padding_bottom": 24
       }
     },
-    "rich_text_H3FqVk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_U7m8gi": {
-          "type": "heading",
-          "settings": {
-            "heading": "Collections",
-            "heading_size": "h2"
-          }
-        },
-        "heading_QpcfFF": {
-          "type": "heading",
-          "settings": {
-            "heading": "View All",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_U7m8gi",
-        "heading_QpcfFF"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "div {display: flex; background-color: green;}",
-        ".rich-text__blocks {background-color: pink; justify-content: space-between; width: 100vw; margin-right: 0px;}",
-        ".rich-text__blocks * {}",
-        ".rich-text__blocks > * + * {margin-top: 0; margin-bottom: 0; text-align: end;}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "collection_list_pFH9R8": {
       "type": "collection-list",
       "blocks": {
@@ -118,26 +80,35 @@
           "settings": {
             "collection": "do-good-while"
           }
+        },
+        "featured_collection_mHAqzX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beds-blankets-transport"
+          }
         }
       },
       "block_order": [
         "featured_collection_URHtfa",
         "featured_collection_y7AHgP",
-        "featured_collection_nteqgD"
+        "featured_collection_nteqgD",
+        "featured_collection_mHAqzX"
       ],
+      "disabled": true,
       "custom_css": [
-        "slider-component {padding-top: 0px !important; margin-top: 0px !important;}",
         ".card--card.card--media > .card__content {background-color: white; text-align: center;}",
-        ".card__heading:last-child {margin-bottom: 0; font-size: 24px;}"
+        ".card__heading:last-child {margin-bottom: 0; font-size: 24px;}",
+        ".grid__item {width: 33.33vw !important;}",
+        ".heading {text-align: center;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Collections",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
-        "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
+        "show_view_all": true,
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 0
@@ -145,11 +116,12 @@
     },
     "featured_collection_U4kAGX": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".card__information {padding-left: 15px;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Products Pups Love",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -174,26 +146,70 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_fgxmr7": {
-      "type": "featured-collection",
-      "disabled": true,
+    "collection_list_qVFWP7": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_GqBaJY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "walking"
+          }
+        },
+        "featured_collection_kD9EzV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "treats-snacks-food"
+          }
+        },
+        "featured_collection_PUfzk7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "for-cats"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_GqBaJY",
+        "featured_collection_kD9EzV",
+        "featured_collection_PUfzk7"
+      ],
       "custom_css": [
-        ".card__information {padding-left: 15px;}"
+        "h2 {font-weight: 400;}",
+        ".center {text-align: center;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_M7z9nL": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-weight: 300;}",
+        ".center {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Featured Products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "human-goods",
+        "collection": "home-page-featured-products",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
+        "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -202,7 +218,7 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 4,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -243,7 +259,7 @@
       "custom_css": [
         ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
         ".banner__content {justify-content: right;}",
-        ".banner__media {background-color: #09A3DE;}"
+        ".banner__media {background-color: #09a3de;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
@@ -263,10 +279,10 @@
   "order": [
     "image_banner_nAe4TU",
     "image_with_text_XBy38B",
-    "rich_text_H3FqVk",
     "collection_list_pFH9R8",
     "featured_collection_U4kAGX",
-    "featured_collection_fgxmr7",
+    "collection_list_qVFWP7",
+    "featured_collection_M7z9nL",
     "image_banner_GjNejr"
   ]
 }

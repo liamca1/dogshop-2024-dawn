@@ -36,7 +36,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "background-2",
+    "card_color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -47,7 +47,7 @@
     "collection_card_style": "card",
     "collection_card_image_padding": 0,
     "collection_card_text_alignment": "left",
-    "collection_card_color_scheme": "background-2",
+    "collection_card_color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
     "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 10,
     "collection_card_corner_radius": 0,
@@ -202,7 +202,7 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#09a3de",
           "secondary_button_label": "#09a3de",
@@ -222,11 +222,22 @@
       },
       "scheme-dde43652-3374-440c-8427-c7c8ef5c9712": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#09a3de",
           "button": "#09a3de",
           "button_label": "#f4d11a",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#ffffff"
+        }
+      },
+      "scheme-41bfc735-eba5-400f-ab08-d7288e862f40": {
+        "settings": {
+          "background": "#fff",
+          "background_gradient": "",
+          "text": "#09a3de",
+          "button": "#fefdf8",
+          "button_label": "#09a3de",
           "secondary_button_label": "#ffffff",
           "shadow": "#ffffff"
         }
@@ -428,11 +439,9 @@
   "platform_customizations": {
     "custom_css": [
       ":root {--grid-desktop-horizontal-spacing: 0px; --grid-desktop-vertical-spacing: 0px;}",
-      ".collection--full-width slider-component:not(.slider-component-desktop) {padding: 0px; padding-top: 20px;}",
-      ".collection-list-wrapper {padding: 0px !important; margin: 0px; width: 100vw;}",
-      ".collection-list {width: 100vw;}",
-      "collection-list__item {border: 0px;}",
-      ".section-template--18981501993228__image_with_text_gghzWG-padding {padding: 0rem;}"
+      ".section-template--18981501993228__image_with_text_gghzWG-padding {padding: 0rem;}",
+      ".title-wrapper--no-top-margin {padding-top: 12px; margin-bottom: 12px; margin-left: 24px;}",
+      ".center {text-align: left;}"
     ]
   }
 }
