@@ -2,6 +2,7 @@
   "sections": {
     "image_banner_nAe4TU": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         "div {}"
       ],
@@ -175,7 +176,8 @@
       ],
       "custom_css": [
         "h2 {font-weight: 400;}",
-        ".center {text-align: center;}"
+        ".center {text-align: center;}",
+        ".button {border: solid 4px #09a3de;}"
       ],
       "settings": {
         "title": "Collections",
@@ -212,7 +214,7 @@
         "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
         "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
@@ -235,7 +237,7 @@
         "text_tfbe8q": {
           "type": "text",
           "settings": {
-            "text": "The dog wash on hermannstrasse djkdndjlcadjc",
+            "text": "The dog wash on Hermannstraße 30, 12049 Berlin, Germany",
             "text_style": "body"
           }
         },
@@ -243,7 +245,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Find Out More",
-            "button_link_1": "",
+            "button_link_1": "https:\/\/www.dogwashagogo.com\/",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -259,7 +261,8 @@
       "custom_css": [
         ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
         ".banner__content {justify-content: right;}",
-        ".banner__media {background-color: #09a3de;}"
+        ".banner__media {background-color: #09a3de;}",
+        ".button {border: solid 4px #f4d11a;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",

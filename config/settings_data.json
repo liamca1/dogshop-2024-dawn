@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo-NoBG_1-x2.png",
+    "logo": "shopify:\/\/shop_images\/dogSHOPagogo.png",
     "logo_width": 120,
     "favicon": "shopify:\/\/shop_images\/Symbol-Sparkle-Line-Small.png",
     "type_header_font": "karla_n7",
@@ -203,9 +203,9 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#09a3de",
-          "secondary_button_label": "#09a3de",
+          "button": "#09a6e3",
+          "button_label": "#f4d11a",
+          "secondary_button_label": "#09a6e3",
           "shadow": "#ffffff"
         }
       },
@@ -233,10 +233,21 @@
       },
       "scheme-41bfc735-eba5-400f-ab08-d7288e862f40": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#09a3de",
           "button": "#fefdf8",
+          "button_label": "#09a3de",
+          "secondary_button_label": "#09a6e3",
+          "shadow": "#ffffff"
+        }
+      },
+      "scheme-4833d030-5266-44ac-b32a-0e005900cce4": {
+        "settings": {
+          "background": "#ddecf2",
+          "background_gradient": "",
+          "text": "#09a3de",
+          "button": "#09a3de",
           "button_label": "#09a3de",
           "secondary_button_label": "#ffffff",
           "shadow": "#ffffff"
@@ -440,8 +451,9 @@
     "custom_css": [
       ":root {--grid-desktop-horizontal-spacing: 0px; --grid-desktop-vertical-spacing: 0px;}",
       ".section-template--18981501993228__image_with_text_gghzWG-padding {padding: 0rem;}",
-      ".title-wrapper--no-top-margin {padding-top: 12px; margin-bottom: 12px; margin-left: 24px;}",
-      ".center {text-align: left;}"
+      ".title-wrapper--no-top-margin {padding-top: 12px; margin-bottom: 12px;}",
+      ".center {text-align: left;}",
+      ".button {font-weight: bold;}"
     ]
   }
 }
