@@ -453,7 +453,12 @@
       ".section-template--18981501993228__image_with_text_gghzWG-padding {padding: 0rem;}",
       ".title-wrapper--no-top-margin {padding-top: 12px; margin-bottom: 12px;}",
       ".center {text-align: left;}",
-      ".button {font-weight: bold;}"
+      ".button {font-weight: bold;}",
+      ".facets {font-weight: bold;}",
+      ".facets__heading {font-weight: bold;}",
+      ".facet-filters__label {font-weight: bold;}",
+      ".facet-filters__sort {font-weight: bold;}",
+      ".product-count__text {font-weight: bold; }"
     ]
   }
 }

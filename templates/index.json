@@ -262,7 +262,8 @@
         ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
         ".banner__content {justify-content: right;}",
         ".banner__media {background-color: #09a3de;}",
-        ".button {border: solid 4px #f4d11a;}"
+        ".button {border: solid 4px #f4d11a;}",
+        ".banner {min-height: 50rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
