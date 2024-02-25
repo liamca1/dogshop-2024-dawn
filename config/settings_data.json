@@ -458,7 +458,10 @@
       ".facets__heading {font-weight: bold;}",
       ".facet-filters__label {font-weight: bold;}",
       ".facet-filters__sort {font-weight: bold;}",
-      ".product-count__text {font-weight: bold; }"
+      ".product-count__text {font-weight: bold;}",
+      ":root {--grid-desktop-vertical-spacing: 50px;}",
+      ".gradient {background-color: #ddecf2;}",
+      ".section-template--19237443535116__featured_collection_M7z9nL-padding {background-color: white !important;}"
     ]
   }
 }

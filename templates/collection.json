@@ -13,6 +13,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".gradient {background-color: white !important;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -30,10 +33,66 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_TtaXeE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_JKtcYa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit Dog Wash A-Go-Go",
+            "heading_size": "h1"
+          }
+        },
+        "text_tfbe8q": {
+          "type": "text",
+          "settings": {
+            "text": "The dog wash on Hermannstraße 30, 12049 Berlin, Germany",
+            "text_style": "body"
+          }
+        },
+        "buttons_DijqBx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find Out More",
+            "button_link_1": "https:\/\/www.dogwashagogo.com\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JKtcYa",
+        "text_tfbe8q",
+        "buttons_DijqBx"
+      ],
+      "custom_css": [
+        ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
+        ".banner__content {justify-content: right;}",
+        ".banner__media {background-color: #09a3de;}",
+        ".button {border: solid 4px #f4d11a;}",
+        ".banner {min-height: 50rem;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "right",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "image_banner_TtaXeE"
   ]
 }

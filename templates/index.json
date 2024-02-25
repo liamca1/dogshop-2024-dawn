@@ -177,7 +177,8 @@
       "custom_css": [
         "h2 {font-weight: 400;}",
         ".center {text-align: center;}",
-        ".button {border: solid 4px #09a3de;}"
+        ".button {border: solid 4px #09a3de;}",
+        ".gradient {background-color: white;}"
       ],
       "settings": {
         "title": "Collections",
@@ -272,7 +273,7 @@
         "desktop_content_position": "top-right",
         "show_text_box": true,
         "desktop_content_alignment": "right",
-        "color_scheme": "scheme-8fe33e84-b10e-41b4-99b0-afa8753c729a",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
