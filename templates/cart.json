@@ -1,1 +1,125 @@
-{"sections":{"cart-items":{"type":"main-cart-items","settings":{"padding_top":36,"padding_bottom":36}},"cart-footer":{"type":"main-cart-footer","blocks":{"subtotal":{"type":"subtotal","settings":{}},"buttons":{"type":"buttons","settings":{}}},"block_order":["subtotal","buttons"],"settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Featured collection","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"square","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["cart-items","cart-footer","featured-collection"]}
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "scheme-60584810-c22e-4e81-9050-2f7878d1d05a",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-60584810-c22e-4e81-9050-2f7878d1d05a",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_JqbHYa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_JKtcYa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit Dog Wash A-Go-Go",
+            "heading_size": "h1"
+          }
+        },
+        "text_tfbe8q": {
+          "type": "text",
+          "settings": {
+            "text": "The dog wash on Hermannstraße 30, 12049 Berlin, Germany",
+            "text_style": "body"
+          }
+        },
+        "buttons_DijqBx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find Out More",
+            "button_link_1": "https:\/\/www.dogwashagogo.com\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JKtcYa",
+        "text_tfbe8q",
+        "buttons_DijqBx"
+      ],
+      "custom_css": [
+        ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
+        ".banner__content {justify-content: right;}",
+        ".banner__media {background-color: #09a3de;}",
+        ".button {border: solid 4px #f4d11a;}",
+        ".banner {min-height: 50rem;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "right",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "featured-collection",
+    "image_banner_JqbHYa"
+  ]
+}

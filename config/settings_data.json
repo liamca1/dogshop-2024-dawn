@@ -117,6 +117,15 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "cart_color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
+    "checkout_header_image": "shopify:\/\/shop_images\/Light_Wave_Desktop-extended.svg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/dogSHOPagogo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#f4d11a",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -248,8 +257,19 @@
           "background_gradient": "",
           "text": "#09a3de",
           "button": "#09a3de",
-          "button_label": "#09a3de",
-          "secondary_button_label": "#ffffff",
+          "button_label": "#f4d11a",
+          "secondary_button_label": "#f4d11a",
+          "shadow": "#ffffff"
+        }
+      },
+      "scheme-60584810-c22e-4e81-9050-2f7878d1d05a": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#09a6e3",
+          "button": "#ffffff",
+          "button_label": "#f4d11a",
+          "secondary_button_label": "#f4d11a",
           "shadow": "#ffffff"
         }
       }
@@ -460,8 +480,9 @@
       ".facet-filters__sort {font-weight: bold;}",
       ".product-count__text {font-weight: bold;}",
       ":root {--grid-desktop-vertical-spacing: 50px;}",
-      ".gradient {background-color: #ddecf2;}",
-      ".section-template--19237443535116__featured_collection_M7z9nL-padding {background-color: white !important;}"
+      ".gradient {background-color: transparent;}",
+      ".section-template--19237443535116__featured_collection_M7z9nL-padding {background-color: white !important;}",
+      ".color-scheme-4833d030-5266-44ac-b32a-0e005900cce4 {background-color: #ddecf2;}"
     ]
   }
 }

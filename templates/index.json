@@ -57,7 +57,7 @@
         "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 24
       }
     },
@@ -177,7 +177,7 @@
       "custom_css": [
         "h2 {font-weight: 400;}",
         ".center {text-align: center;}",
-        ".button {border: solid 4px #09a3de;}",
+        ".button {border: solid 2px #09a3de;}",
         ".gradient {background-color: white;}"
       ],
       "settings": {
@@ -276,8 +276,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
