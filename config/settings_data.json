@@ -154,7 +154,7 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#09a3de",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#f4d11a",
           "button": "#09a3de",
@@ -271,6 +271,28 @@
           "button_label": "#f4d11a",
           "secondary_button_label": "#f4d11a",
           "shadow": "#ffffff"
+        }
+      },
+      "scheme-04b96d34-6fc6-4f69-91b1-1bdc1f540edd": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#f4d11a",
+          "button": "#09a3de",
+          "button_label": "#f4d11a",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#ffffff"
+        }
+      },
+      "scheme-34ee954a-d48d-4f17-b543-d300070ce825": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#09a3de",
+          "button": "#ffffff",
+          "button_label": "#334fb4",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#ddecf2"
         }
       }
     }
@@ -480,7 +502,6 @@
       ".facet-filters__sort {font-weight: bold;}",
       ".product-count__text {font-weight: bold;}",
       ":root {--grid-desktop-vertical-spacing: 50px;}",
-      ".gradient {background-color: transparent;}",
       ".section-template--19237443535116__featured_collection_M7z9nL-padding {background-color: white !important;}",
       ".color-scheme-4833d030-5266-44ac-b32a-0e005900cce4 {background-color: #ddecf2;}"
     ]
