@@ -18,7 +18,7 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -30,9 +30,9 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header {display: flex; justify-content: space-between; width: 100vw;}",
-        ".list-menu__item {font-family: Karla; font-size: 18px; font-style: normal; font-weight: 700; line-height: 110%; color: #09a3de;}",
-        ".header-wrapper {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/5984\/5132\/files\/Light_Wave_Desktop-extendedx2_430x.svg?v=1708838773) !important; background-repeat: no-repeat !important; background-color: transparent; height: 130px;}"
+        "header {display: flex; justify-content: space-between; width: 100vw; padding-top: 25px;}",
+        ".list-menu__item {font-size: 120%; font-weight: 700;}",
+        ".header-wrapper {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/5984\/5132\/files\/Header-fix_430x.svg?v=1710046323); background-color: transparent; height: 126px;}"
       ],
       "settings": {
         "logo_position": "middle-left",
@@ -46,7 +46,7 @@
         "enable_language_selector": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 20,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     }
