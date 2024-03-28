@@ -294,6 +294,28 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#ddecf2"
         }
+      },
+      "scheme-737b3392-a9c9-4f66-8988-6e8aa8ebc3de": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#09a3de",
+          "button": "#ffffff",
+          "button_label": "#09a3de",
+          "secondary_button_label": "#09a3de",
+          "shadow": "#ffffff"
+        }
+      },
+      "scheme-b12a5320-cdf5-428a-acb2-8387c4b42e80": {
+        "settings": {
+          "background": "#09a3de",
+          "background_gradient": "",
+          "text": "#f4d11a",
+          "button": "#09a3de",
+          "button_label": "#f4d11a",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#ffffff"
+        }
       }
     }
   },
@@ -503,7 +525,8 @@
       ".product-count__text {font-weight: bold;}",
       ":root {--grid-desktop-vertical-spacing: 50px;}",
       ".section-template--19237443535116__featured_collection_M7z9nL-padding {background-color: white !important;}",
-      ".color-scheme-4833d030-5266-44ac-b32a-0e005900cce4 {background-color: #ddecf2;}"
+      ".color-scheme-4833d030-5266-44ac-b32a-0e005900cce4 {background-color: #ddecf2;}",
+      ".banner__media {background-color: #09A3DE;}"
     ]
   }
 }
