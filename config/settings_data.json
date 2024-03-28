@@ -526,7 +526,10 @@
       ":root {--grid-desktop-vertical-spacing: 50px;}",
       ".section-template--19237443535116__featured_collection_M7z9nL-padding {background-color: white !important;}",
       ".color-scheme-4833d030-5266-44ac-b32a-0e005900cce4 {background-color: #ddecf2;}",
-      ".banner__media {background-color: #09A3DE;}"
+      ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
+      ".banner__content {justify-content: right;}",
+      ".banner__media {background-color: #09a3de;}",
+      "\/* .gradient {overflow-x: hidden; \/* Hide horizontal scrollbar *\/.menu-drawer__inner-container {background-color: white;}.menu-drawer__inner-submenu {background-color: white;}"
     ]
   }
 }

@@ -23,7 +23,7 @@
         "text_Efiwnf"
       ],
       "custom_css": [
-
+        "@media only screen and (max-width: 749px) {.image-with-text__content {padding: 2px; padding-top: 12px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/beede0bc062558a8c87e5130e1660942f861a79b9c2eb5fdfeff882d3415a9be.png",
@@ -37,7 +37,7 @@
         "color_scheme": "scheme-34ee954a-d48d-4f17-b543-d300070ce825",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 24
       }
     },
@@ -95,10 +95,12 @@
       ],
       "custom_css": [
         "h3 {font-size: 160%;}",
-        ".center {text-align: center;}",
+        "\/* .center {text-align: center;}",
         ".button {border: solid 2px #09a3de;}",
-        ".gradient {background-color: white;}",
-        ".card__information {padding-left: 0; margin-left: 0; text-align: center;}"
+        " *\/.gradient {background-color: transparent !important;}",
+        ".card__information {padding-left: 0; margin-left: 0; text-align: center;}",
+        "@media only screen and (max-width: 749px) {.card__information {padding-left: 0; margin-left: 0; padding-top: 13px; text-align: left; } h3 {font-size: 130%; }}",
+        "@media only screen and (max-width: 749px) {.card__content {padding: 0px; }}"
       ],
       "settings": {
         "title": "",
