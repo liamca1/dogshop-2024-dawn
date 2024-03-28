@@ -2367,21 +2367,36 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 /* Main Header Layout */
-.header-wrapper {
+/* .header-wrapper {
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
+} */
+
+.header-wrapper {
+  display: block;
+  position: relative;
+  background-image: url(https://cdn.shopify.com/s/files/1/0695/5984/5132/files/Header-fix_430x.svg?v=1710046323) !important;
+  background-color: transparent !important;
+}
 }
 
 .header-wrapper--border-bottom {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
-.header {
+/* .header {
   display: grid;
   grid-template-areas: 'left-icons heading icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 126px;
 }
 
 @media screen and (max-width: 749px) {
