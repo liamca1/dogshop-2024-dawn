@@ -529,7 +529,7 @@
       ".banner__box {background: rgba(0, 0, 0, 0); padding: 0rem;}",
       ".banner__content {justify-content: right;}",
       ".banner__media {background-color: #09a3de;}",
-      "\/* .gradient {overflow-x: hidden; \/* Hide horizontal scrollbar *\/.menu-drawer__inner-container {background-color: white;}.menu-drawer__inner-submenu {background-color: white;}"
+      "\/* .gradient {overflow-x: hidden; \/* Hide horizontal scrollbar *\/.menu-drawer__inner-container {background-color: white;}.menu-drawer__inner-submenu {background-color: white;}.header-localization {padding-left: 30px; padding-bottom: 30px;}"
     ]
   }
 }
