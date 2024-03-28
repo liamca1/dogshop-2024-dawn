@@ -5,14 +5,16 @@
     "header": {
       "type": "header",
       "custom_css": [
+        ".header {display: flex; justify-content: space-between; width: 100vw; height: 126px;}",
         ".list-menu__item {font-size: 120%; font-weight: 700;}",
-        ".header__icon--search {display: none !important;}"
+        ".header__icon--search {display: none !important;}",
+        ".header-wrapper {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/5984\/5132\/files\/Header-fix_430x.svg?v=1710046323) !important; background-color: transparent !important;}"
       ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "always",
+        "sticky_header_type": "none",
         "show_line_separator": false,
         "color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
         "menu_color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
