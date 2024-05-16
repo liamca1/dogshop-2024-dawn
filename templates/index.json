@@ -109,7 +109,7 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 56,
         "padding_bottom": 0
       }
     },
@@ -149,20 +149,20 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 24
       }
     },
     "featured_collection_M7z9nL": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-weight: 300;}",
+        "h2 {font-weight: 600px;}",
         ".center {text-align: center;}",
         "h3 {font-size: 105%; padding-right: 8px; margin-bottom: 4px;}",
         ".price {margin-top: 0px; font-size: 80%;}"
       ],
       "settings": {
-        "title": "Products Pups Love",
+        "title": "Products Pups Love!",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -170,11 +170,11 @@
         "collection": "home-page-featured-products",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
+        "color_scheme": "accent-2",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -184,7 +184,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 52
       }
     },
     "image_banner_GjNejr": {

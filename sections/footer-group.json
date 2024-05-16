@@ -40,7 +40,7 @@
         ".footer-block:only-child:last-child {text-align: center; max-width: none; margin: 0 auto;}"
       ],
       "settings": {
-        "color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
+        "color_scheme": "scheme-dde43652-3374-440c-8427-c7c8ef5c9712",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
@@ -50,8 +50,8 @@
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 44,
+        "padding_bottom": 12
       }
     }
   },
