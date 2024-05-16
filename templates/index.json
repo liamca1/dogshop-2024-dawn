@@ -98,6 +98,46 @@
         ".gradient {background-color: transparent !important;}",
         ".card__information {padding-left: 0; margin-left: 0; text-align: center;}",
         ".collection-list__item {width: 100%; box-sizing: border-box; padding-left: 0px; padding-right: 0px;}",
+        "@media only screen and (max-width: 749px) {.card__information {padding-top: 12px; text-align: left; } h3 {font-size: 130%; } .collection {padding: 0px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_mnafai": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_TwW9LP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "walking"
+          }
+        },
+        "featured_collection_AAjN9a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "treats-snacks-food"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_TwW9LP",
+        "featured_collection_AAjN9a"
+      ],
+      "custom_css": [
+        "h3 {font-size: 160%;}",
+        ".gradient {background-color: transparent !important;}",
+        ".card__information {padding-left: 0; margin-left: 0; text-align: center;}",
+        ".collection-list__item {width: 100%; box-sizing: border-box; padding-left: 0px; padding-right: 0px;}",
         "@media only screen and (max-width: 749px) {.card__information {padding-top: 13px; text-align: left; } h3 {font-size: 130%; } .collection {padding: 0px; }}"
       ],
       "settings": {
@@ -110,7 +150,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "featured_collection_M7z9nL": {
@@ -122,7 +162,7 @@
         ".price {margin-top: 0px; font-size: 80%;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Products Pups Love",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -130,7 +170,7 @@
         "collection": "home-page-featured-products",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
@@ -204,6 +244,7 @@
     "image_with_text_XBy38B",
     "featured_collection_U4kAGX",
     "collection_list_qVFWP7",
+    "collection_list_mnafai",
     "featured_collection_M7z9nL",
     "image_banner_GjNejr"
   ]
