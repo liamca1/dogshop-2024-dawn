@@ -14,15 +14,15 @@
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
         "menu_color_scheme": "scheme-4833d030-5266-44ac-b32a-0e005900cce4",
         "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 20,
+        "padding_top": 12,
         "padding_bottom": 12
       }
     },
