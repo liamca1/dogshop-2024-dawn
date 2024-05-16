@@ -95,17 +95,15 @@
       ],
       "custom_css": [
         "h3 {font-size: 160%;}",
-        " \/* .center {text-align: center;}",
-        ".button {border: solid 2px #09a3de;}",
-        " *\/.gradient {background-color: transparent !important;}",
+        ".gradient {background-color: transparent !important;}",
         ".card__information {padding-left: 0; margin-left: 0; text-align: center;}",
-        "@media only screen and (max-width: 749px) {.card__information {padding-left: 0; margin-left: 0; padding-top: 13px; text-align: left; } h3 {font-size: 130%; }}",
-        "@media only screen and (max-width: 749px) {.card__content {padding: 0px; }}"
+        ".collection-list__item {width: 100%; box-sizing: border-box; padding-left: 0px; padding-right: 0px;}",
+        "@media only screen and (max-width: 749px) {.card__information {padding-top: 13px; text-align: left; } h3 {font-size: 130%; } .collection {padding: 0px; }}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "color_scheme": "scheme-41bfc735-eba5-400f-ab08-d7288e862f40",
         "show_view_all": false,
@@ -120,7 +118,7 @@
       "custom_css": [
         "h2 {font-weight: 300;}",
         ".center {text-align: center;}",
-        "h3 {font-size: 105%; padding-right: 8px; margin-bottom: 0px;}",
+        "h3 {font-size: 105%; padding-right: 8px; margin-bottom: 4px;}",
         ".price {margin-top: 0px; font-size: 80%;}"
       ],
       "settings": {
@@ -191,9 +189,9 @@
         "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "top-right",
+        "desktop_content_position": "middle-right",
         "show_text_box": true,
-        "desktop_content_alignment": "right",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-b12a5320-cdf5-428a-acb2-8387c4b42e80",
         "image_behavior": "none",
         "mobile_content_alignment": "right",
