@@ -226,9 +226,9 @@
         ".banner__buttons {border: 1px solid;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Footer-2-3-2.png",
+        "image": "shopify:\/\/shop_images\/franny_bottom_banner_2.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
         "desktop_content_alignment": "left",
