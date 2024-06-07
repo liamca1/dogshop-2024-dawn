@@ -222,8 +222,9 @@
         "buttons_DijqBx"
       ],
       "custom_css": [
-        "img {width: 70%;}",
-        ".banner__buttons {border: 1px solid;}"
+        "img {width: 100%;}",
+        ".banner__buttons {border: 1px solid;}",
+        ".banner {background-color: #09a3de;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/franny_bottom_banner_2.png",
@@ -234,9 +235,9 @@
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-b12a5320-cdf5-428a-acb2-8387c4b42e80",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     }
   },
